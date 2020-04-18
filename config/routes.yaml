@@ -1,0 +1,9 @@
+product_show:
+    path:       /details/{id}
+    controller: App\Controller\ProduitsController::show
+product_delete:
+    path:       /delete/{id}
+    controller: App\Controller\ProduitsController::delete
+produit_like:
+    path:       /produits/{id}/like
+    controller: App\Controller\ProduitsController::like

@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ProduitsController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+
+<section id="cover" class="min-vh-150">
+    <div id="cover-caption">
+        <div class="container">
+            <div class="row text-black">
+                <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
+                    <h1 class="display-8 py-4 text-truncate"> {% trans %}Detail du produit{% endtrans %}</h1>
+                     
+                    <div class="card" style="width: 35rem;">
+                        <img class="card-img-top" src="{{ vich_uploader_asset(product, 'imageFile') }}" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ product.libelleProduit}}</h5>
+                            <p class="card-text">{{ product.description}}</p>
+                            <p class="card-text">{{ product.prix}}</p>
+                            
+                        </div>
+                         <div class="card-footer">
+                 <small class="text-muted"><a href="" class="btn btn-primary"> Detail</a></small>
+                 
+
+                 <small class="text-muted"><a href="#" class="btn btn-default">Payer</a></small>
+                 
+                </div>
+                    </div>
+                     
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                   
+{% endblock %}

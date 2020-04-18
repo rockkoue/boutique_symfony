@@ -1,0 +1,12 @@
+1.creation de compte user *
+2.gestion de mode passe oublier *
+3.cretion de categorie *
+4.creation de produit avec image utilisation de vich pour l'image*
+	-modif
+	-delet
+	_detail
+5.gestion de compte client -
+6.gestion de panier client -
+7.module de paiement client -
+8.gestion de multiple langage*
+9.gestion de like produit avec ajax* -

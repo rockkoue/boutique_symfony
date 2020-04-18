@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Categorie!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+<section id="cover" class="min-vh-150">
+    <div id="cover-caption">
+        <div class="container">
+            <div class="row text-black">
+                <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
+                    <h1 class="display-8 py-4 text-truncate"> {% trans %}creation{% endtrans %}</h1>
+                    
+                             {{ form_start(form) }}
+                            {{ form_widget(form) }}
+                        <button class="btn btn-done">enregistrement</button>
+                             {{ form_end(form) }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
