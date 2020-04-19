@@ -17,6 +17,50 @@
         <source>Save</source>
         <target>enregistrement</target>
       </trans-unit>
+      <trans-unit id="u3I07BJ" resname="Register">
+        <source>Register</source>
+        <target>S'enregistrer</target>
+      </trans-unit>
+      <trans-unit id="llq7JUs" resname="creation">
+        <source>creation</source>
+        <target>creation</target>
+      </trans-unit>
+      <trans-unit id="mtTXt9t" resname="Creation produit">
+        <source>Creation produit</source>
+        <target>Creation de produit</target>
+      </trans-unit>
+      <trans-unit id="GVx.4Pt" resname="Modification produit">
+        <source>Modification produit</source>
+        <target>Modification produit</target>
+      </trans-unit>
+      <trans-unit id="5bNQ7F9" resname="Liste des produits">
+        <source>Liste des produits</source>
+        <target>Liste de produits</target>
+      </trans-unit>
+      <trans-unit id="SOnFn.l" resname="Detail du produit">
+        <source>Detail du produit</source>
+        <target>__Detail du produit</target>
+      </trans-unit>
+      <trans-unit id="TnDx.SS" resname="Reset Password">
+        <source>Reset Password</source>
+        <target>Actualisé le mot de passe</target>
+      </trans-unit>
+      <trans-unit id="2u52BrM" resname="Reset">
+        <source>Reset</source>
+        <target>Acualisé</target>
+      </trans-unit>
+      <trans-unit id="dDUw20Q" resname="Please sign in">
+        <source>Please sign in</source>
+        <target>Merci de vous connecté</target>
+      </trans-unit>
+      <trans-unit id="v9QCsvb" resname="Sign in">
+        <source>Sign in</source>
+        <target>connexion</target>
+      </trans-unit>
+      <trans-unit id="yaGNteg" resname="Liste of produits">
+        <source>Liste of produits</source>
+        <target>la liste de produis</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
